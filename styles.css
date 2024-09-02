@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, p, a, label, input{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    background-color: #000;
+    border: none;
+}
+
+header, nav, ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li{
+ margin-left: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #a9a9a9;
+    text-decoration: none;
+    color: #A9A9A9; 
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s; 
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: #FFFFFF; 
+    background-color: #00FFFF;
+    border-radius: 5px;
+}
+
+header .logo p {
+    font-size: 2em;
+   font-weight: 900;
+   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+   letter-spacing: 0.05em;
+}
+
+
+header, footer {
+    padding: 20px;
+    background-color: #333;
+    border: none;
+}
+
+body {
+    background-color: #000;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo img{
+max-width: 100px;
+height: auto;
+}
+
+.hero img{
+    width: 200%; 
+    height: auto; 
+    object-fit: cover; 
+    display: block;
+
+}
+
+.hero {
+    margin-top: 10px;
+    height: 80vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.website {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+    color: #00FFFF;
+    font-weight: bold;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 25px;
+    z-index: 10; 
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: #a9a9a9;
+    text-decoration: none;
+    color: #00f7ff; 
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s; 
+    font-size: 4em;
+    font-weight: 900;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    letter-spacing: 0.05em;
+
+}
+
+.website:hover {
+    color: #ff00ff; 
+    background-color: #ff0000;
+    border-radius: 25px;
+}
+
+main .Why-5GUM,
+main .Flavourful{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+main .Why-5GUM h1,
+main .Flavourful h1{
+    margin: 20px 0;
+}
+.form{
+    background-color: rgb(77, 77, 77);
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.form form label{
+    color: white;
+}
+
+footer{
+    text-align: right;
+}
+
+
+
+.Why-5GUM, .Flavourful {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.image-left, .image-right {
+    flex: 1 1 200px; 
+    max-width: 20%; 
+    margin: 10px; 
+}
+
+.image-left img, .image-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.content {
+    flex: 3 1 500px; 
+    margin: 20px; 
+}
+
+.Why-5GUM h1, .Flavourful h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.Why-5GUM p, .Flavourful p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+    .Why-5GUM, .Flavourful {
+        flex-direction: column; 
+    }
+
+    .image-left, .image-right, .content {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+}
+
+   
+      
+    
